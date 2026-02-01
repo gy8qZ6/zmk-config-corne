@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-config-corne
+      url: https://github.com/t18n/zmk-config-corne
+      revision: main
+      path: modules/zmk-config-corne
   self:
     path: config
